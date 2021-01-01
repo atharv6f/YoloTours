@@ -30,6 +30,29 @@ Active Deployment 👉: https://yolotours.herokuapp.com/
 ## API Usage 
 The documentation for using the YoloTours API can be found 👉:https://documenter.getpostman.com/view/12415161/TVt2biYm
 
+## For developers
+Clone the source locally:
+
+```sh
+$ git clone https://github.com/atharv6f/YoloTours.git
+$ cd YoloTours
+```
+If you're on Debian or Ubuntu, you'll also need to install
+`nodejs-legacy`:
+
+Use your package manager to install `npm`.
+
+```sh
+$ sudo apt-get install npm nodejs-legacy
+```
+
+Install project dependencies:
+
+```sh
+$ npm install
+```
+
+
 
 
 
