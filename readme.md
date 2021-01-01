@@ -50,9 +50,23 @@ Install project dependencies:
 
 ```sh
 $ npm install
+$ npm run build:js
 ```
 
-
-
-
-
+## Deployment
+Follow these steps to deploy the app to heroku:👇 
+```
+$ git init
+$ git add -A
+$ git commit -m "Initial commit"
+$ heroku login
+$ heroku create
+* Set your environment variables on the heroku platform
+$ git push heroku master
+$ heroku open
+```
+The name of the app can be changed using the CLI by running the following :👇 
+```
+heroku apps:rename <APP_NAME>
+heroku open
+```
