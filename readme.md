@@ -70,3 +70,15 @@ The name of the app can be changed using the CLI by running the following :👇
 heroku apps:rename <APP_NAME>
 heroku open
 ```
+## Built with
+- [Node.js](https://nodejs.org)
+- [Express](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/2)
+
+## Additional API's used
+- [Stripe](https://nodejs.org)
+- [Mapbox](https://expressjs.com/)
+- [Sendgrid](https://www.mongodb.com/2)
+- [Mailtrap](https://www.mongodb.com/2)
+
+
