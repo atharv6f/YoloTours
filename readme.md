@@ -28,7 +28,7 @@ Active Deployment 👉: https://yolotours.herokuapp.com/
 - [ ] Two Factor authentication
 
 ## API Usage 
-The documentation for using the YoloTours API can be found 👇 https://documenter.getpostman.com/view/12415161/TVt2biYm
+The documentation for using the YoloTours API can be found at 👉 https://documenter.getpostman.com/view/12415161/TVt2biYm
 
 ## For developers
 Clone the source locally:
