@@ -1,3 +1,4 @@
+
 <h1 align="center">
   <br>
   <a href="https://yolotours.herokuapp.com/"><img src="https://github.com/atharv6f/YoloTours/blob/master/public/img/YoloTousLogo2.png" alt="YoloTours" width="200"></a>
@@ -5,6 +6,9 @@
   YoloTours
   <br>
 </h1>
+<h4 align="center">
+ A tour based web application built using node.js, express.js and mongoDB
+</h4>
 
 
 
