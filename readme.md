@@ -7,6 +7,21 @@
 </h1>
 
 <h4 align="center">A web application built upon <a href="https://nodejs.org/en/" target="_blank">Node.js, Express and MongoDB</a></h4>
+ <p align="center">
+ <a href="#Deployed Website">Demo</a> •
+  <a href="#Key Features">Key Features</a> •
+  <a href="#API Usage ">Demonstration</a> •
+  <a href="#For developers">How To Use</a> •
+  <a href="#Deployment">API Usage</a> •
+  <a href="#Built with">Deployment</a> •
+  <a href="# Additional API's used">Build With</a> •
+  <a href="#To-do">To-do</a> •
+  <a href="#installation">Installation</a> • 
+  <a href="#known-bugs">Known Bugs</a> • 
+  <a href="#future-updates">Future Updates</a> • 
+  <a href="#acknowledgement">Acknowledgement</a>
+</p>
+
 
 ## Deployed Website 
 Active Deployment 👉: https://yolotours.herokuapp.com/
@@ -83,5 +98,8 @@ heroku open
 
 
 ## To-do
-- [ ] Implement admin features
-- []
+- Advanced admin features
+- Two factor authentication
+- Refresh Tokens
+- Billing Section
+- Recently visited tours
