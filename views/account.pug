@@ -13,11 +13,11 @@ block content
         .user-view
             nav.user-view__menu
                 ul.side-nav
-                    +navItem('#', 'Settings', 'settings', true)
+                    
                     +navItem('/my-tours', 'My bookings', 'briefcase')
                     +navItem('/my-favorite-tours', 'My Favorites', 'heart')
                     +navItem('/my-reviews', 'My reviews', 'star')
-                    +navItem('#', 'Billing', 'credit-card')
+                    
                 -if (user.role === 'admin')
                     .admin-nav
                         h5.admin-nav__heading Admin
@@ -43,7 +43,7 @@ block content
                             input.form__upload(type='file', accept='image/*', id='photo', name='photo')
                             label(for='photo') Choose new photo
                         .form__group.right
-                            button.btn.btn--small.btn--green Save settings
+                            button.btn.btn--small.btn--green(onClick="window.location.href=window.location.href") Save settings
                 .line &nbsp;
                 .user-view__form-container
                     h2.heading-secondary.ma-bt-md Password change

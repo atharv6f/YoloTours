@@ -73,7 +73,7 @@ if (userPasswordForm) {
 
 if (bookBtn) {
   bookBtn.addEventListener('click', e => {
-    e.target.textContent = 'Processing...';
+    e.target.textContent = 'Just a sec...';
     const { tourId } = e.target.dataset;
     bookTour(tourId);
   });
@@ -104,7 +104,6 @@ if (reviewForm) {
   });
 }
 
-
 if (reviewPage) {
   const btnDelete = document.querySelectorAll('.btn-delete');
   const btnUpdate = document.querySelectorAll('.btn-update');
@@ -113,30 +112,27 @@ if (reviewPage) {
   console.log({ rating, review });
   btnUpdate.forEach((btn, i) => {
     btn.addEventListener('click', e => {
-      btn.textContent = 'Save'
+      btn.textContent = 'Save';
       rating[i].disabled = false;
       review[i].disabled = false;
       btn.addEventListener('click', e => {
-        const reviewId = btn.dataset.reviewId
+        const reviewId = btn.dataset.reviewId;
         console.log(rating[i].value);
-        btn.disabled = true
-        btn.textContent = 'Saving...'
+        btn.disabled = true;
+        btn.textContent = 'Saving...';
         updateReview(reviewId, rating[i].value, review[i].value);
-      })
-    })
-
-
+      });
+    });
   });
 
   btnDelete.forEach((btn, i) => {
     btn.addEventListener('click', e => {
-      const reviewId = btn.dataset.reviewId
-      btn.textContent = 'Removing...'
-      btn.disabled = true
+      const reviewId = btn.dataset.reviewId;
+      btn.textContent = 'Removing...';
+      btn.disabled = true;
       deleteReview(reviewId);
-    })
-  })
-
+    });
+  });
 }
 
 if (favBtn) {
